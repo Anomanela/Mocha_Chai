@@ -1,0 +1,18 @@
+{
+  "name": "pertemuan-7-dan-8",
+  "version": "1.0.0",
+  "description": "learn",
+  "main": "index.js",
+  "scripts": {
+    "test": "git version",
+    "apiUser": "npx mocha TEST/API_USER.js",
+    "apiUser2": "npx mocha TEST/DELETE.js"
+  },
+  "author": "anom",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
